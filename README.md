@@ -1,76 +1,36 @@
-# 🚀 Next.js MySQL CRUD App
+# Next.js MySQL CRUD Application
 
-A full-stack CRUD application built with Next.js and MySQL.
+A complete CRUD (Create, Read, Update, Delete) application built with Next.js 14 and MySQL.
 
-## 📌 Features
+## Features
 
-* Create, Read, Update, Delete (CRUD)
-* MySQL Database Integration
-* API Routes (Next.js App Router)
-* Simple UI
+- ✅ Create new users
+- ✅ Read/View all users
+- ✅ Update user information
+- ✅ Delete users
+- ✅ Responsive design with Tailwind CSS
+- ✅ RESTful API endpoints
+- ✅ MySQL database integration
+- ✅ Toast notifications
+- ✅ Loading states
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-* Next.js
-* MySQL
-* Node.js
+- **Frontend:** Next.js 14, React, Tailwind CSS
+- **Backend:** Next.js API Routes
+- **Database:** MySQL
+- **HTTP Client:** Fetch API
+- **Notifications:** React Hot Toast
 
-## ⚙️ Setup Instructions
+## Prerequisites
 
-### 1. Clone Repo
+- Node.js 18+ 
+- MySQL 5.7+
+- npm or yarn
 
+## Installation
+
+1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/nextjs-mysql-crud-app.git
+git clone https://github.com/amanxploit/nextjs-mysql-crud-app.git
 cd nextjs-mysql-crud-app
-```
-
-### 2. Install Dependencies
-
-```bash
-npm install
-```
-
-### 3. Setup Environment Variables
-
-Create `.env.local`
-
-```
-DB_HOST=localhost
-DB_USER=root
-DB_PASSWORD=yourpassword
-DB_NAME=testdb
-```
-
-### 4. Create Database
-
-```sql
-CREATE TABLE users (
-  id INT AUTO_INCREMENT PRIMARY KEY,
-  name VARCHAR(255),
-  email VARCHAR(255)
-);
-```
-
-### 5. Run Project
-
-```bash
-npm run dev
-```
-
-Visit:
-
-```
-http://localhost:3000
-```
-
-## 📷 Screenshots
-
-(Add your screenshots here)
-
-## 🤝 Contributing
-
-Pull requests are welcome!
-
-## 📜 License
-
-MIT License
